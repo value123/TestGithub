@@ -6,7 +6,7 @@ import android.os.Looper;
 import android.widget.Toast;
 
 /**
- * Created by weijia.jin on 16/4/27.
+ * Created by wenjie.shen on 16/4/27.
  */
 public class ToastUtil {
     private static final String TAG = "ToastUtil";
@@ -64,7 +64,7 @@ public class ToastUtil {
             handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    
+
                     if (mToast == null) {
                         mToast = Toast.makeText(context, content, duration);
                         mToast.show();
